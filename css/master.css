@@ -107,3 +107,15 @@ footer {
 	grid-area: four;
 	background: purple;
 }
+
+@media only screen and (max-width: 680px) {
+	body {
+		grid:
+			"nav" auto
+			"header" auto
+			"aside" 100px
+			"main" 400px
+			"footer" 50px
+			/auto;
+	}
+}
