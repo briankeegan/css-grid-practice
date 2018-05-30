@@ -34,7 +34,6 @@ main {
 		/ 1fr 2fr 1fr;
 	grid-gap: 2em;
 }
-/* notice you don't have to define with grid-area.. */
 .one {
 	background: blue;
 }

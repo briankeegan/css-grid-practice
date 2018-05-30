@@ -79,6 +79,7 @@ main {
 	display: grid;
 	grid:
 		"one two three" auto
+		"one four three" auto
 		/ 1fr 2fr 1fr;
 	grid-gap: 2em;
 }
@@ -90,13 +91,19 @@ footer {
 	grid-area: footer;
 	background: grey;
 }
-/* notice you don't have to define with grid-area.. */
 .one {
+	grid-area: one;
 	background: blue;
 }
 .two {
+	grid-area: two;
 	background: yellow;
 }
 .three {
+	grid-area: three;
 	background: green;
+}
+.four {
+	grid-area: four;
+	background: purple;
 }
